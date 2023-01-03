@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="Home" class="menu">
+      <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Sobre">Sobre</a></li>
+        <li><a href="#Projetos">Projetos</a></li>
+        <li><a href="#Cursos">Cursos</a></li>
+        <li><a href="#Habilidades">Habilidades</a></li>
+        <li><a href="#sectionForm">Contato</a></li>
+      </ul>
+      <div class="boxName">
+        <h2 class="port"><b>Portifólio</b></h2>
+        <h1 class="name">Marcos Chave</h1>
+        <h2 id="title">Desenvolvedor Front-end</h2>
+      </div>
+      <div class="fundoHeader">
+        <img
+          id="fundoHeader"
+          src="./assets/twoHole.jpg"
+          alt="buraco-negro.gif"
+        />
+      </div>
+    </nav>
+    <section id="Sobre" class="sectionA">
+      <div class="boxSobreMim">
+        <h2>Sobre mim</h2>
+        <p>
+          Olá! Sou o Marcos, tenho 26 anos, natural de Belo Horizonte-MG. Sou um
+          amante de tecnologia e tenho descoberto na programação o meu lugar,
+          almejo inicar minha carreira nesta área para poder construi-la fazendo
+          parte diretamente do crescimento e sucesso da empresa. Tenho estudado
+          e realizados projetos na área do Front e Back-end.
+        </p>
+        <img id="eu" src="./assets/eu.JPG" />
+      </div>
+    </section>
+    <hr class="hrD" />
+    <section id="Projetos">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a
+              href="https://marcoschave.github.io/Projeto-Insta/"
+              target="_blank"
+            >
+              <img src="./assets/Captura de Ecrã (22).png" />Layout Instagram
+              <p class="descriçãoProjetos">
+                Neste projeto foi reproduzido a pagina de login do instragram
+                com HTML, CSS e Java Script.
+              </p></a
+            >
+          </div>
+          <div class="swiper-slide">
+            <a></a>
+          </div>
+          <div class="swiper-slide">
+            <a></a>
+          </div>
+          <div class="swiper-slide">
+            <a></a>
+          </div>
+          <div class="swiper-slide">
+            <a></a>
+          </div>
+          <div class="swiper-slide">
+            <a></a>
+          </div>
+          <div cclass="swiper-slide">
+            <a></a>
+          </div>
+          <div class="swiper-slide">
+            <a></a>
+          </div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </section>
+    <hr class="hrE" />
+    <section id="Cursos" class="sectionA">
+      <div class="boxCursos"></div>
+    </section>
+    <hr class="hrD" />
+    <section id="Habilidades">
+      <div class="boxHabilidades">
+        <div class="boxIcon">
+          <img class="iconHabil" src="./assets/html_icon.png" />
+          <img class="iconHabil" src="./assets/css_icon.png" />
+          <img class="iconHabil" src="./assets/javaScript_icon.png" />
+          <img class="iconHabil" src="./assets/gitHub_icon.jpg" />
+          <img class="iconHabil" src="./assets/nodejs_icon.png" />
+          <img class="iconHabil" src="./assets/react_icon.png" />
+        </div>
+        <div class="backHabili">
+          <img id="backHabili" src="./assets/buraconegro.gif" />
+        </div>
+      </div>
+    </section>
+    <hr class="hrE" />
+    <section class="sectionA">
+      <div class="boxCurriculo">
+        <a class="curriculo" href="./assets/Curriculo Dev.pdf" download="pdf"
+          >Currículo ↓</a
+        >
+        <img class="astron" src="./assets/astronalta.png" />
+        <img class="imgStars" src="./assets/holeAstro.webp" />
+      </div>
+    </section>
+    <hr class="hrD" />
+    <section id="sectionForm">
+      <div class="boxForm">
+        <form
+          action="https://formsubmit.co/marcosvtc7@outlook.com"
+          method="post"
+          enctype="text/plain"
+        >
+          <h1>Entre em contato:</h1>
+          <label>Seu nome:</label>
+          <input name="Nome" type="text" class="inputUm Input" required />
+          <label>Seu E-mail:</label>
+          <input
+            name="email"
+            type="email"
+            class="inputDois Input"
+            required
+          /><br />
+          Sua mensagem:
+          <textarea name="mensagem" rows="5" required></textarea>
+          <div class="box-bt">
+            <input type="submit" value="Enviar" class="inputbt" />
+            <input type="reset" value="Limpar" class="inputbt" />
+          </div>
+        </form>
+      </div>
+
+      <footer class="boxRedes">
+        <a href="https://www.linkedin.com/in/marcos-chave/" target="_blank"
+          ><img class="redesIcon" src="./assets/linkedin.png" />
+        </a>
+        <a href="https://github.com/MarcosChave" target="_blank"
+          ><img class="redesIcon" src="./assets/github.png"
+        /></a>
+        <a href="https://www.instagram.com/marcostchave/" target="_blank"
+          ><img class="redesIcon" src="./assets/instagram.png"
+        /></a>
+      </footer>
+    </section>
+  </body>
+  <script src="./script.js"></script>
+</html>
