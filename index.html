@@ -20,152 +20,267 @@
     <title>Document</title>
   </head>
   <body>
-    <nav id="Home" class="menu">
-      <ul>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#Sobre">Sobre</a></li>
-        <li><a href="#Projetos">Projetos</a></li>
-        <li><a href="#Cursos">Cursos</a></li>
-        <li><a href="#Habilidades">Habilidades</a></li>
-        <li><a href="#sectionForm">Contato</a></li>
-      </ul>
-      <div class="boxName">
-        <h2 class="port"><b>Portifólio</b></h2>
-        <h1 class="name">Marcos Chave</h1>
-        <h2 id="title">Desenvolvedor Front-end</h2>
-      </div>
-      <div class="fundoHeader">
-        <img
-          id="fundoHeader"
-          src="./assets/twoHole.jpg"
-          alt="buraco-negro.gif"
-        />
-      </div>
-    </nav>
-    <section id="Sobre" class="sectionA">
-      <div class="boxSobreMim">
-        <h2>Sobre mim</h2>
-        <p>
-          Olá! Sou o Marcos, tenho 26 anos, natural de Belo Horizonte-MG. Sou um
-          amante de tecnologia e tenho descoberto na programação o meu lugar,
-          almejo inicar minha carreira nesta área para poder construi-la fazendo
-          parte diretamente do crescimento e sucesso da empresa. Tenho estudado
-          e realizados projetos na área do Front e Back-end.
-        </p>
-        <img id="eu" src="./assets/eu.JPG" />
-      </div>
-    </section>
-    <hr class="hrD" />
-    <section id="Projetos">
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <a
-              href="https://marcoschave.github.io/Projeto-Insta/"
-              target="_blank"
-            >
-              <img src="./assets/Captura de Ecrã (22).png" />Layout Instagram
-              <p class="descriçãoProjetos">
-                Neste projeto foi reproduzido a pagina de login do instragram
-                com HTML, CSS e Java Script.
-              </p></a
-            >
-          </div>
-          <div class="swiper-slide">
-            <a></a>
-          </div>
-          <div class="swiper-slide">
-            <a></a>
-          </div>
-          <div class="swiper-slide">
-            <a></a>
-          </div>
-          <div class="swiper-slide">
-            <a></a>
-          </div>
-          <div class="swiper-slide">
-            <a></a>
-          </div>
-          <div cclass="swiper-slide">
-            <a></a>
-          </div>
-          <div class="swiper-slide">
-            <a></a>
-          </div>
+    <div class="Container">
+      <header id="Home" class="menu">
+        <div class="boxName">
+          <h2 class="port"><b>Portifólio</b></h2>
+          <h1 class="name">Marcos Chave</h1>
+          <h2 id="title">Desenvolvedor Front-end</h2>
         </div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-    </section>
-    <hr class="hrE" />
-    <section id="Cursos" class="sectionA">
-      <div class="boxCursos"></div>
-    </section>
-    <hr class="hrD" />
-    <section id="Habilidades">
-      <div class="boxHabilidades">
-        <div class="boxIcon">
-          <img class="iconHabil" src="./assets/html_icon.png" />
-          <img class="iconHabil" src="./assets/css_icon.png" />
-          <img class="iconHabil" src="./assets/javaScript_icon.png" />
-          <img class="iconHabil" src="./assets/gitHub_icon.jpg" />
-          <img class="iconHabil" src="./assets/nodejs_icon.png" />
-          <img class="iconHabil" src="./assets/react_icon.png" />
-        </div>
-        <div class="backHabili">
-          <img id="backHabili" src="./assets/buraconegro.gif" />
-        </div>
-      </div>
-    </section>
-    <hr class="hrE" />
-    <section class="sectionA">
-      <div class="boxCurriculo">
-        <a class="curriculo" href="./assets/Curriculo Dev.pdf" download="pdf"
-          >Currículo ↓</a
-        >
-        <img class="astron" src="./assets/astronalta.png" />
-        <img class="imgStars" src="./assets/holeAstro.webp" />
-      </div>
-    </section>
-    <hr class="hrD" />
-    <section id="sectionForm">
-      <div class="boxForm">
-        <form
-          action="https://formsubmit.co/marcosvtc7@outlook.com"
-          method="post"
-          enctype="text/plain"
-        >
-          <h1>Entre em contato:</h1>
-          <label>Seu nome:</label>
-          <input name="Nome" type="text" class="inputUm Input" required />
-          <label>Seu E-mail:</label>
-          <input
-            name="email"
-            type="email"
-            class="inputDois Input"
-            required
-          /><br />
-          Sua mensagem:
-          <textarea name="mensagem" rows="5" required></textarea>
-          <div class="box-bt">
-            <input type="submit" value="Enviar" class="inputbt" />
-            <input type="reset" value="Limpar" class="inputbt" />
+        <nav>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Sobre">Sobre</a></li>
+            <li><a href="#Projetos">Projetos</a></li>
+            <li><a href="#Cursos">Cursos</a></li>
+            <li><a href="#Habilidades">Habilidades</a></li>
+            <li><a href="#sectionForm">Contato</a></li>
+          </ul>
+        </nav>
+      </header>
+      <section id="Sobre" class="sectionA">
+        <div class="boxSobreMim">
+          <div>
+            <h2>Sobre mim</h2>
+            <p class="textEu">
+              Olá! Sou o Marcos, tenho 26 anos, natural de Belo Horizonte-MG.
+              Sou um amante de tecnologia e tenho descoberto na programação o
+              meu lugar, almejo inicar minha carreira nesta área para poder
+              construi-la fazendo parte diretamente do crescimento e sucesso da
+              empresa. Tenho estudado e realizados projetos na área do Front e
+              Back-end.
+            </p>
           </div>
-        </form>
-      </div>
 
-      <footer class="boxRedes">
-        <a href="https://www.linkedin.com/in/marcos-chave/" target="_blank"
-          ><img class="redesIcon" src="./assets/linkedin.png" />
-        </a>
-        <a href="https://github.com/MarcosChave" target="_blank"
-          ><img class="redesIcon" src="./assets/github.png"
-        /></a>
-        <a href="https://www.instagram.com/marcostchave/" target="_blank"
-          ><img class="redesIcon" src="./assets/instagram.png"
-        /></a>
-      </footer>
-    </section>
+          <div class="eu">
+            <img id="eu" src="./assets/eu.JPG" />
+          </div>
+        </div>
+      </section>
+      <section id="Projetos">
+        <div class="swiper projects">
+          <div class="swiper-wrapper projects-wrapper">
+            <div class="swiper-slide project-slider">
+              <a
+                href="https://marcoschave.github.io/ProjetoJSWeb/"
+                target="_blank"
+              >
+                <img src="./assets/convertMoney.png" />
+                <p>Conversor de moedas</p>
+                <br />
+                <p class="descriçãoProjetos">
+                  Neste projeto criei uma aplicação de conversor de moeda que
+                  consome uma API dos valores em tempo real.
+                </p></a
+              >
+            </div>
+            <div class="swiper-slide project-slider">
+              <a href="https://aplicacao-tarefa.netlify.app/" target="_blank">
+                <img src="./assets/appTarefas.png" />
+                <p>To do List</p>
+                <br />
+                <p class="descriçãoProjetos">
+                  Neste projeto criei uma aplicação de tarefas, podendo
+                  adicionar, concluir e deletar compromissos do dia a dia.
+                </p></a
+              >
+            </div>
+            <div class="swiper-slide project-slider">
+              <a
+                href="https://marcoschave.github.io/Layout-GE/"
+                target="_blank"
+              >
+                <img src="./assets/Layout GE.png" />
+                <p>Layout Globo Esporte</p>
+                <br />
+                <p class="descriçãoProjetos">
+                  Neste projeto repliquei uma firt page de um site esportivo com
+                  HTML, CSS e Java Script.
+                </p></a
+              >
+            </div>
+            <div class="swiper-slide project-slider">
+              <a
+                href="https://marcoschave.github.io/Carousel-slider/"
+                target="_blank"
+              >
+                <img src="./assets/Carousel-slider.png" />
+                <p>Carousel slider</p>
+                <br />
+                <p class="descriçãoProjetos">
+                  Criei um pequeno carrosel de imagens para poder praticar o
+                  Java Script.
+                </p></a
+              >
+            </div>
+            <div class="swiper-slide project-slider">
+              <a
+                href="https://github.com/MarcosChave/node-challenge/blob/master/index.js"
+                target="_blank"
+              >
+                <img src="./assets/desafioNode.png" />
+                <p>Desafio NodeJS</p>
+                <br />
+                <p class="descriçãoProjetos">
+                  Neste projeto criei uma estrutura Back-end sumulando um site
+                  de Hamburgueria podendo adicionar, editar e deletar pedidos.
+                </p></a
+              >
+            </div>
+            <div class="swiper-slide project-slider">
+              <a
+                href="https://marcoschave.github.io/Projeto-Insta/"
+                target="_blank"
+              >
+                <img src="./assets/Captura de Ecrã (22).png" />
+                <p>Layout Instagram</p>
+                <br />
+                <p class="descriçãoProjetos">
+                  Neste projeto reproduzi a pagina de login do instragram.
+                </p></a
+              >
+            </div>
+            <div cclass="swiper-slide project-slider">
+              <a></a>
+            </div>
+            <div class="swiper-slide project-slider">
+              <a></a>
+            </div>
+          </div>
+          <div class="swiper-button-prev arrow"></div>
+          <div class="swiper-button-next arrow"></div>
+        </div>
+      </section>
+
+      <section id="Cursos" class="sectionA">
+        <div>
+          <div class="swiper boxCursos">
+            <div class="swiper-button-prev arrow"></div>
+            <div class="swiper-wrapper cursosWrapper">
+              <div class="swiper-slide cursosSlider">
+                <h4>Desenvolvedor FullStack | 09/22 - Atual</h4>
+                <br />
+                <p>
+                  Formação do zero ao avançado voltado para área do Front e
+                  Back-end, no qual aprendemos o desenvolvimento da interface
+                  gráfica do usuário de um site e também toda a parte da
+                  programação voltada ao funcionamento interno de um software.
+                </p>
+                <br />
+                <p>
+                  HTML, CSS, JavaScript, Git, GitHub, React JS, Node JS,
+                  PostgreSQL
+                </p>
+                <br />
+                <p>DevClub - Rodolfo Mori / São Paulo-SP</p>
+              </div>
+              <div class="swiper-slide cursosSlider">
+                <h4>Desenvolvedor Front-end | 06/22 - 09-22</h4>
+                <br />
+                <p>
+                  Formação do zero ao avançado voltado para área do Front-end,
+                  no qual aprendemos o desenvolvimento de aplicaçês que interage
+                  diretamente com o usuário.
+                </p>
+                <br />
+                <p>HTML, CSS, JavaScript, Git, GitHub, React JS</p>
+                <br />
+                <p>DevClub - Rodolfo Mori / São Paulo-SP</p>
+              </div>
+              <div class="swiper-slide cursosSlider">
+                <h4>Lógica de programação com Java Script | 10/22 - 10-22</h4>
+                <br />
+                <p>
+                  Formação voltada para entender a lógica do Java Script, no
+                  qual aprendemos um tutorial da base lógica da linguagem.
+                </p>
+                <br />
+                <p>
+                  Funções, Variáveis, Constantes, Condicionais, Arrays, Objetos,
+                  Looping
+                </p>
+                <br />
+                <p>Udemy / udemy.com</p>
+              </div>
+            </div>
+            <div class="swiper-button-next arrow"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Habilidades">
+        <div class="boxHabilidades">
+          <div class="boxIcon">
+            <img class="iconHabil" src="./assets/html_icon.png" />
+            <img class="iconHabil" src="./assets/css_icon.png" />
+            <img class="iconHabil" src="./assets/javaScript_icon.png" />
+            <img class="iconHabil" src="./assets/gitHub_icon.jpg" />
+            <img class="iconHabil" src="./assets/nodejs_icon.png" />
+            <img class="iconHabil" src="./assets/react_icon.png" />
+            <img class="iconHabil" src="./assets/git-icon.png" />
+            <img class="iconHabil" src="./assets/postgresql-icon.webp" />
+          </div>
+          <div class="backHabili">
+            <img id="backHabili" src="./assets/buraconegro.gif" />
+          </div>
+        </div>
+      </section>
+
+      <section class="sectionA">
+        <div class="boxCurriculo">
+          <a class="curriculo" href="./assets/Curriculo Dev.pdf" download="pdf"
+            >Currículo ↓</a
+          >
+          <img class="astron" src="./assets/astronalta.png" />
+          <img class="imgStars" src="./assets/holeAstro.webp" />
+        </div>
+      </section>
+
+      <section id="sectionForm">
+        <div class="boxForm">
+          <form
+            action="https://formsubmit.co/marcosvtc7@outlook.com"
+            method="post"
+            enctype="text/plain"
+          >
+            <h1>Entre em contato:</h1>
+            <label>Seu nome:</label>
+            <input name="Nome" type="text" class="inputUm Input" required />
+            <label>Seu E-mail:</label>
+            <input
+              name="email"
+              type="email"
+              class="inputDois Input"
+              required
+            /><br />
+            Sua mensagem:
+            <textarea name="mensagem" rows="5" required></textarea>
+            <div class="box-bt">
+              <input type="submit" value="Enviar" class="inputbt" />
+              <input type="reset" value="Limpar" class="inputbt" />
+            </div>
+          </form>
+        </div>
+
+        <footer class="boxRedes">
+          <div>
+            <a href="https://www.linkedin.com/in/marcos-chave/" target="_blank"
+              ><img class="redesIcon" src="./assets/linkedin.png" />
+            </a>
+          </div>
+          <div>
+            <a href="https://github.com/MarcosChave" target="_blank"
+              ><img class="redesIcon" src="./assets/github.png"
+            /></a>
+          </div>
+          <div>
+            <a href="https://www.instagram.com/marcostchave/" target="_blank"
+              ><img class="redesIcon" src="./assets/instagram.png"
+            /></a>
+          </div>
+        </footer>
+      </section>
+    </div>
   </body>
   <script src="./script.js"></script>
 </html>
