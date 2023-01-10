@@ -25,6 +25,7 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
     url(./assets/twoHole.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 nav {
   display: flex;
