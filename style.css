@@ -24,6 +24,7 @@ header {
   border-radius: 40px;
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
     url(./assets/twoHole.jpg);
+  background-repeat: no-repeat;
 }
 nav {
   display: flex;
@@ -75,6 +76,9 @@ b {
   font-weight: 300;
 }
 .boxName {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   width: 410px;
   height: 645px;
 }
@@ -97,17 +101,18 @@ li:hover {
   text-decoration: underline;
 }
 .name {
+  width: 409px;
+  margin-top: 650px;
   color: #fff;
   margin-left: 20px;
-  margin-top: 540px;
   font-size: 40px;
   font-weight: 400;
+  padding-left: 20px;
 }
 #title {
   font-size: 30px;
   font-weight: 500;
   color: #fff;
-  margin-left: 20px;
 }
 .boxSobreMim {
   font-family: 'Roboto Condensed', sans-serif;
