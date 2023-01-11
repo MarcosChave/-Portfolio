@@ -81,7 +81,7 @@ b {
   flex-direction: column;
   justify-content: space-between;
   width: 410px;
-  height: 645px;
+  height: 100%;
 }
 ul {
   font-weight: 300;
@@ -103,7 +103,6 @@ li:hover {
 }
 .name {
   width: 409px;
-  margin-top: 650px;
   color: #fff;
   margin-left: 20px;
   font-size: 40px;
