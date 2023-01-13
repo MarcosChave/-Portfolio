@@ -26,6 +26,12 @@ const swiperCursos = new Swiper('.boxCursos', {
   }
 })
 
+const sliderCursos = () => {
+  if (document.style.body <= 500) {
+    document.style.boxCursos.height = 600
+  }
+}
+
 menuItems.forEach(item => {
   item.addEventListener('click', scrollToIdOnClick)
 })

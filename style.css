@@ -471,35 +471,71 @@ textarea:hover {
   transform: scale(1.5);
   transition: 0.2s;
 }
-@media screen and (max-width: 500px) {
-  .Container {
-    width: 100%;
-  }
+@media only screen and (max-width: 500px) {
   header {
     display: flex;
     justify-content: space-between;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)),
+      url(./assets/twoHole-responsive.jpg);
+    border: none;
+    background-repeat: no-repeat;
   }
   nav {
-    width: 380px;
-    height: 280px;
+    height: 100%;
+    margin-left: 20%;
   }
   ul {
     display: flex;
     flex-direction: column;
-    margin-left: 20%;
     text-align: right;
     position: relative;
   }
   li {
     margin-bottom: 20px;
   }
+
+  .boxName {
+    width: 200px;
+    height: 100%;
+  }
   .port {
     position: relative;
   }
-  .name {
-    font-size: 30px;
-  }
+
   #title {
     font-size: 17px;
+  }
+
+  .sectionA {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boxSobreMim {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 405px;
+    height: 80%;
+  }
+  .textEu {
+    width: 250px;
+    margin-bottom: 20px;
+    line-height: 25px;
+  }
+
+  .projects {
+    width: 370px;
+    height: 570px;
+  }
+  .boxCursos {
+    width: 450px;
+    height: 630px;
+  }
+  .cursosSlider {
+    font-size: 12px;
+    width: 430px;
   }
 }
