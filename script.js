@@ -1,4 +1,3 @@
-const projects = document.querySelectorAll('.swiper')
 const menuItems = document.querySelectorAll('.menu a[href^="#"]')
 
 const swiperProject = new Swiper('.projects', {
@@ -25,12 +24,6 @@ const swiperCursos = new Swiper('.boxCursos', {
     direction: 'vertical'
   }
 })
-
-const sliderCursos = () => {
-  if (document.style.body <= 500) {
-    document.style.boxCursos.height = 600
-  }
-}
 
 menuItems.forEach(item => {
   item.addEventListener('click', scrollToIdOnClick)

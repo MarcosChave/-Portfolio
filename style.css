@@ -214,9 +214,9 @@ a:hover {
   color: #fff;
   font-size: 15px;
   font-weight: 100;
-  padding: 15px;
+  padding: 20px;
   width: 500px;
-  margin-top: 15px;
+  margin-top: 5px;
   border-radius: 15px;
   display: flex;
   align-items: center;
@@ -372,22 +372,14 @@ form {
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(3, 1fr);
 }
-.inputUm {
-  color: aliceblue;
-  margin-top: -10px;
-  margin-right: 20px;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-.inputDois {
-  color: aliceblue;
-  margin-top: -10px;
-  grid-column-start: 2;
-  grid-column-end: 2;
-  grid-row-start: 2;
-}
-input {
+input,
+textarea {
   font-weight: 500;
   font-size: 16px;
   width: 380px;
@@ -410,46 +402,68 @@ input:hover {
   outline-style: solid;
   outline-color: rgb(255, 68, 0);
 }
-textarea {
-  font-weight: 500;
-  font-size: 16px;
-  outline: none;
-  border: none;
-  width: 860px;
-  border-radius: 5px;
-  padding-left: 10px;
-  padding-top: 10px;
-  background-color: rgb(28, 28, 28);
+.inputUm {
   color: aliceblue;
+  margin-top: -10px;
+  margin-right: 20px;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 2;
 }
+.inputDois {
+  color: aliceblue;
+  margin-top: -10px;
+  grid-column-start: 2;
+  grid-column-end: 2;
+}
+
+textarea {
+  padding: 5px;
+  color: aliceblue;
+  position: absolute;
+  width: 860px;
+  height: 200px;
+  outline: none;
+}
+
+textarea:hover {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: rgb(255, 68, 0);
+}
+
 textarea:focus {
   outline-style: solid;
   outline-color: rgb(255, 68, 0);
   outline-width: 2px;
   color: rgb(255, 68, 0);
 }
-textarea:hover {
-  outline-width: 2px;
-  outline-style: solid;
-  outline-color: rgb(255, 68, 0);
-}
-.box-bt {
-  display: flex;
-  flex-direction: row;
-  width: 300px;
-  height: 10px;
-  margin-top: 40px;
+
+.boxbt {
+  width: 250px;
+  height: 100px;
   grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+  margin-left: 80%;
+  margin-top: 80px;
 }
 .inputbt {
+  height: 50%;
   font-size: bold;
   margin-right: 10px;
   padding-left: 1px;
   color: aliceblue;
   cursor: pointer;
   width: 90px;
+  background-color: #262626;
+  border: none;
+}
+
+.inputbt:hover {
+  outline-width: 2px;
+  outline-style: solid;
+  outline-color: rgb(255, 68, 0);
 }
 .inputbt:active {
   opacity: 0.7;
